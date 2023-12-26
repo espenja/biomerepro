@@ -1,0 +1,15 @@
+{
+	"extends": "../../../tsconfig.node.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./dist",
+		"noEmit": false,
+		"declaration": true,
+		"skipLibCheck": true,
+		"paths": {
+			"src/*": ["src/*"]
+		},
+		"experimentalDecorators": true
+	},
+	"include": ["src", "scripts", "test", "jest.config.mjs"],
+}
